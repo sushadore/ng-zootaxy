@@ -46,22 +46,22 @@ Navigate to the folder where you'd like to open the app such as your desktop.
 * Hide new animal form
 
 #### Stretch Goals
-  * View animal details on new component
-  * Add firebase
-  * Animal photos
-  * Add SASS
-  * Caretaker Model:
+ * View animal details on new component
+ * Add firebase
+ * Animal photos
+ * Add SASS
+ * Caretaker Model:
    * Name
    * Volunteer or Pro
    * Phone number
-  * Admission timestamp
-  * Filter by:
-  * Species
-   * number by sex
-  * dietary needs
-  * average age for a species
-  * feeding schedule
-  * nocturnality
+ * Admission timestamp
+ * Filter by:
+   * Species
+     * Sex
+   * dietary needs
+   * average age for a species
+   * feeding schedule
+   * nocturnality
 
 ## Author
 Susha Dore
