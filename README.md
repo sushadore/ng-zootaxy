@@ -11,7 +11,7 @@ An app to classify and sort animals with to the benefit of zookeepers never
 
 * possibly add sass to resources/styles,
 
-PLANNING
+# PLANNING
 * Animal Model:
   * Species
   * Name
@@ -31,6 +31,11 @@ PLANNING
     * mature animals
 * Edit animal info
 
+#### Stretch Goals
+* Firebase
+* View animal details
+* Hide new animal form
+* Animal photo
 * SASS
 * Caretaker:
   * Name
@@ -39,10 +44,11 @@ PLANNING
 * Admission timestamp
 * Filter by:
   * Species
+    * number by sex
   * dietary needs
   * average age for a species
   * feeding schedule
-  * nocturnal
+  * nocturnality
 
 ## Prerequisites
 
