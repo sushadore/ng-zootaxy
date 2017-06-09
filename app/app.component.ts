@@ -6,11 +6,9 @@ import { Animal } from './animal.model';
   template: `
   <div class="container">
     <h1> Zootaxy: </h1>
-    <ul>
-      <li *ngFor="let animal of masterAnimalList"><h3>{{animal.name}} the {{animal.species}}</h3></li>
-    </ul>
-    <animal-list></animal-list>
+    <animal-list [animalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
     <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+    <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
 
   </div>
   `
@@ -23,6 +21,16 @@ export class AppComponent {
     new Animal('Python', 'Slithery', 8, 'F', 'Carnivore', 'sun bathing', 'dead rats', 'Joyless Jungle', 4),
     new Animal('Polar Bear', 'Whitey', 2, 'M', 'Carniovre', 'balls', 'small children', 'Anemic Arctic', 7),
   ];
+
+  selectedAnimal: Animal = null;
+
+  editAnimal(clickedAnimal) {
+    this.selectedAnimal = clickedAnimal;
+  }
+
+  finishedEditing() {
+    this.selectedAnimal = null;
+  }
 
   addAnimal(newAnimal: Animal) {
     this.masterAnimalList.push(newAnimal)
