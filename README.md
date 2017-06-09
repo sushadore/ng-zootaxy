@@ -33,6 +33,7 @@ An app to classify and sort animals with to the benefit of zookeepers never
 
 #### Stretch Goals
 * Firebase
+* Hide new animal form
 * View animal details
 * Hide new animal form
 * Animal photo
