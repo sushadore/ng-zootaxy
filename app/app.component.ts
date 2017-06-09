@@ -9,6 +9,8 @@ import { Animal } from './animal.model';
     <ul>
       <li *ngFor="let animal of masterAnimalList"><h3>{{animal.name}} the {{animal.species}}</h3></li>
     </ul>
+    <animal-list></animal-list>
+    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
 
   </div>
   `
@@ -22,4 +24,7 @@ export class AppComponent {
     new Animal('Polar Bear', 'Whitey', 2, 'M', 'Carniovre', 'balls', 'small children', 'Anemic Arctic', 7),
   ];
 
+  addAnimal(newAnimal: Animal) {
+    this.masterAnimalList.push(newAnimal)
+  }
 }
