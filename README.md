@@ -30,12 +30,11 @@ An app to classify and sort animals with to the benefit of zookeepers never
     * young animals
     * mature animals
 * Edit animal info
+* Hide new animal form
 
 #### Stretch Goals
 * Firebase
-* Hide new animal form
 * View animal details
-* Hide new animal form
 * Animal photo
 * SASS
 * Caretaker:

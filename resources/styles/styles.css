@@ -1,3 +1,21 @@
 body {
   background-color: #FAC986;
 }
+#header {
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #614C30;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-left: 6px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+button {
+  background-color: #614C30;
+  color: #fff;
+}

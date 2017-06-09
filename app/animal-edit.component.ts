@@ -22,18 +22,18 @@ import { Animal } from './animal.model';
       <div class="form-group">
         <label>Sex:</label>
         <select class="form-control" [(ngModel)]="childSelectedAnimal.sex">
-          <option [value]=""></option>
-          <option [value]="f">Female</option>
-          <option [value]="m">Male</option>
+          <option></option>
+          <option>female</option>
+          <option>male</option>
         </select>
       </div>
       <div class="form-group">
         <label>Diet:</label>
         <select class="form-control" [(ngModel)]="childSelectedAnimal.diet">
-          <option [value]=""></option>
-          <option [value]="herbivore">Herbivore</option>
-          <option [value]="omnivore">Omnivore</option>
-          <option [value]="carnivore">Carnivore</option>
+        <option></option>
+        <option>herbivorous</option>
+        <option>omnivorous</option>
+        <option>carnivorous</option>
           </select>
         </div>
       <div class="form-group">
@@ -47,11 +47,11 @@ import { Animal } from './animal.model';
       <div class="form-group">
         <label>Location:</label>
         <select class="form-control" [(ngModel)]="childSelectedAnimal.location">
-          <option [value]=""></option>
-          <option [value]="sorrow">Serengeti Sorrow</option>
-          <option [value]="joyless">Joyless Jungle</option>
-          <option [value]="agony">Arctic Agony</option>
-          <option [value]="dread">Desert Dread</option>
+        <option></option>
+        <option>Serengeti Sorrow</option>
+        <option>Tropic Tedium</option>
+        <option>Arctic Agony</option>
+        <option>Desert Dread</option>
         </select>
       </div>
       <div class="form-group">
