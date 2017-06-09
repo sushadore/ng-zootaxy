@@ -1,17 +1,32 @@
 # Zootaxy
 
-An app to classify and sort animals with to the benefit of zookeepers never
+An Epicodus Angular 2 code review
 
-# NOTES!!!!!
-* remove: comments in index.html
+### Description
+Zootaxy saves and displays zoo animal details and filter animals based on maturation. Users can add new animals, update existing animals and sort animals based on maturation.
 
-* to do: npm install, bower init, bower install bootstrap --save, gulp build, gulp serve
 
-* add repository url
+### Prerequisites
 
-* possibly add sass to resources/styles,
+The following must be properly installed on your computer
 
-# PLANNING
+  * Git
+  * Node.js
+  * Bower
+
+### Load Project
+
+  * `git clone https://github.com/sushadore/ng-zootaxy.git`
+  * `cd ng-zootaxy`
+  * `npm istall`
+  * `bower install`
+  * `bower install bootstrap --save`
+  * `bower init`
+  * `gulp build`
+  * `gulp serve`
+  * Visit app at [http://localhost:3000](http://localhost:3000)
+
+### In Place
 * Animal Model:
   * Species
   * Name
@@ -23,49 +38,31 @@ An app to classify and sort animals with to the benefit of zookeepers never
   * Dislike
   * Location
   * Number of Caretakers
-
-* New Animal
+* Add new Animal
 * View:
-    * all animals
-    * young animals
-    * mature animals
+  * all animals
+  * young animals
+  * mature animals
 * Edit animal info
 * Hide new animal form
 
 #### Stretch Goals
-* Firebase
-* View animal details
-* Animal photo
-* SASS
-* Caretaker:
+  * View animal details on new component
+  * Add firebase
+  * Animal photo
+  * SASS
+  * Caretaker:
   * Name
   * Volunteer or Pro
   * Phone number
-* Admission timestamp
-* Filter by:
+  * Admission timestamp
+  * Filter by:
   * Species
-    * number by sex
+  * number by sex
   * dietary needs
   * average age for a species
   * feeding schedule
   * nocturnality
-
-## Prerequisites
-
-The following must be properly installed on your computer
-
-  * Git
-  * Node.js
-  * Bower
-## Load Project
-
-  * `git clone`
-  * `cd`
-  * `npm istall`
-  * `bower init`
-  * `gulp build`
-  * `gulp serve`
-  * Visit app at [http://localhost:3000](http://localhost:3000)
 
 ## Author
 Susha Dore
@@ -73,5 +70,3 @@ Susha Dore
 ## License
 
 MIT
-
-Copyright (c) 2017 Susha Dore All Rights Reserved.
