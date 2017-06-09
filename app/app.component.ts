@@ -7,7 +7,7 @@ import { Animal } from './animal.model';
   <div class="container">
     <h1> Zootaxy: </h1>
     <animal-list [animalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
-    <new-animal (newAnimalSender)="addAnimal($event)"></new-animal>
+    <new-animal  (newAnimalSender)="addAnimal($event)"></new-animal>
     <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
 
   </div>

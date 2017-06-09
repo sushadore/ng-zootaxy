@@ -6,7 +6,7 @@ import { Animal } from './animal.model';
   template: `
 
     <div *ngIf="childSelectedAnimal">
-      <h3>Update  {{childSelectedAnimal.name}} the {{childSelectedAnimal.species}}</h3>
+      <h3>Update {{childSelectedAnimal.name}} the {{childSelectedAnimal.species}}</h3>
       <div class="form-group">
         <label>Species:</label>
         <input class="form-control" [(ngModel)]="childSelectedAnimal.species">
